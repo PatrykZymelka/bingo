@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "description": "Sojusznik otrzymał Ranę Krytyczną"
+  },
+  {
+    "id": "2",
+    "description": "Przeciwnik otrzymał Ranę Krytyczną"
+  },
+  {
+    "id": "3",
+    "description": "Sojusznik otrzymał Punkt Zepsucia"
+  },
+  {
+    "id": "4",
+    "description": "Zaklęcie sojusznika wyrwało się spod kontroli"
+  },
+  {
+    "id": "5",
+    "description": "Wytworzyła się mniejsza Magiczna Manifestacja"
+  },
+  {
+    "id": "6",
+    "description": "Wytworzyła sie większa Magiczna Manifestacja"
+  },
+  {
+    "id": "7",
+    "description": "Sojusznik spadł do 0 HP"
+  },
+  {
+    "id": "8",
+    "description": "Amor wpadł w kłopoty z swojej winy"
+  },
+  {
+    "id": "9",
+    "description": "Drużyna natrafiła na kultystę chaosu"
+  },
+  {
+    "id": "10",
+    "description": "Drużyna natrafiła na Skavena"
+  },
+  {
+    "id": "11",
+    "description": "Krignok wyciągnął kogoś z tarapatów"
+  },
+  {
+    "id": "12",
+    "description": "Gra zaczęła się 30 min po czasie"
+  },
+  {
+    "id": "13",
+    "description": "Maciek zjadł opiad u dziadków"
+  },
+  {
+    "id": "14",
+    "description": "Fenris złapał przetępcę"
+  },
+  {
+    "id": "15",
+    "description": "Twój bohater zadał Ranę Krytyczną"
+  },
+  {
+    "id": "16",
+    "description": "Twój bohater otrzymał Ranę Krytyczną"
+  },
+  {
+    "id": "17",
+    "description": "Albert utargował lepszą cenę"
+  },
+  {
+    "id": "18",
+    "description": "Sojusznik otrzymał mutację"
+  },
+  {
+    "id": "19",
+    "description": "Morrslieb pojawił się na nieboskłonie"
+  },
+  {
+    "id": "20",
+    "description": "Twój bohater otrzymał stan krwawienie"
+  },
+  {
+    "id": "21",
+    "description": "Twój bohater otrzymał punkt zepsucia"
+  },
+  {
+    "id": "22",
+    "description": "Ktoś w drużynie otrzymał stan Panika"
+  },
+  {
+    "id": "23",
+    "description": "Sojusznik odeszedł do domeny Morra"
+  },
+  {
+    "id": "24",
+    "description": "Amor jechał na koniu"
+  },
+  {
+    "id": "25",
+    "description": "Albert uleczył sojusznika"
+  }
+]

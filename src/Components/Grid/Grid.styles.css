@@ -1,0 +1,55 @@
+.Square {
+  aspect-ratio: 1/1;
+  align-self: center;
+  justify-self: center;
+  background-color: var(--background);
+  display: grid;
+  align-items: center;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  border-style: solid;
+  border-color: var(--accent);
+  width: 100%;
+}
+.Cell {
+  justify-self: center;
+  text-align: center;
+  border-style: solid;
+  display: grid;
+  width: 92%;
+  height: 92%;
+  cursor: pointer;
+
+  transition-duration: 0.5s;
+  background-color: var(--primary);
+  border-color: var(--secondary);
+}
+.Cell:hover {
+  scale: 1.05;
+  background-color: #f59331;
+  z-index: 2;
+}
+.Text {
+  text-align: center;
+  vertical-align: top;
+  align-self: center;
+  margin: 2px;
+  font-weight: bold;
+  color: var(--text);
+  text-shadow: 3px 3px 7px black;
+}
+@media only screen and (max-width: 767px) {
+  .Text {
+    font-size: 0.45em;
+  }
+  .Square {
+    width: 100%;
+    max-width: 90vw;
+    max-height: 90vh;
+  }
+}
+@media only screen and (min-width: 767px) {
+  .Square {
+    height: 90vh;
+  }
+}
