@@ -8,9 +8,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   --text: #eaebed;
   --background: #0f1117;
+  --backgroundCell: #171a23;
   --primary: #e77c18;
   --secondary: #8e2319;
   --accent: #ddc23f;
+  user-select: none;
 }
 
 code {

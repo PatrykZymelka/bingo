@@ -1,5 +1,6 @@
 import "./Grid.styles.css";
-import items from "../Json/items.json";
+import item from "../Json/items.json";
+import Items from "../Items/Items";
 import { useEffect, useState } from "react";
 
 function Grid() {
@@ -58,7 +59,7 @@ function Grid() {
   });
 
   useEffect(() => {
-    var i = json2array(items);
+    var i = json2array(item);
     i = shuffleArray(i);
     setCells((prevState) => ({
       ...prevState,
@@ -99,7 +100,7 @@ function Grid() {
     <div className="Square">
       {cellArray.map((cell, id) => (
         <div key={id} className="Cell">
-          <text className="Text">{cell}</text>
+          <Items cell={cell} />
         </div>
       ))}
       ;

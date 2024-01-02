@@ -7,8 +7,6 @@
   align-items: center;
   grid-template-rows: 20% 20% 20% 20% 20%;
   grid-template-columns: 20% 20% 20% 20% 20%;
-  border-style: solid;
-  border-color: var(--accent);
   width: 100%;
 }
 .Cell {
@@ -19,25 +17,12 @@
   width: 92%;
   height: 92%;
   cursor: pointer;
-
+  border-width: 3px;
   transition-duration: 0.5s;
-  background-color: var(--primary);
-  border-color: var(--secondary);
+  background-color: var(--backgroundCell);
+  border-color: var(--text);
 }
-.Cell:hover {
-  scale: 1.05;
-  background-color: #f59331;
-  z-index: 2;
-}
-.Text {
-  text-align: center;
-  vertical-align: top;
-  align-self: center;
-  margin: 2px;
-  font-weight: bold;
-  color: var(--text);
-  text-shadow: 3px 3px 7px black;
-}
+
 @media only screen and (max-width: 767px) {
   .Text {
     font-size: 0.45em;
@@ -51,5 +36,9 @@
 @media only screen and (min-width: 767px) {
   .Square {
     height: 90vh;
+  }
+  .Cell:hover {
+    scale: 1.05;
+    z-index: 2;
   }
 }

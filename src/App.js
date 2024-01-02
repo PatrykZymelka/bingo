@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="Background">
       <div className="Top">
-        <h1>Sesja Bingo</h1>
+        <h1 className="Title">Sesja Bingo: Warhammer Edition</h1>
       </div>
       <div className="Middle">
         <div className="SideBar"></div>

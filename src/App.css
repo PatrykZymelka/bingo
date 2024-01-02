@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Noto%20Serif%20Bengali:700|Noto%20Serif%20Bengali:400");
 * {
   margin: 0;
   padding: 0;
@@ -7,15 +8,9 @@
   height: 100%;
   background-color: var(--background);
   display: grid;
-  grid-template-rows: 10vh 90vh 5vh;
+  grid-template-rows: 15vh 90vh 5vh;
 }
-.Top {
-  border-style: solid;
-  border-color: black;
-  border-right: 0;
-  border-left: 0;
-  border-top: 0;
-}
+
 .Middle {
   display: grid;
   grid-template-columns: 10% 80% 10%;
@@ -27,16 +22,19 @@
 .Content {
   display: grid;
 }
-
-.Bottom {
-  border-style: solid;
-  border-color: black;
-  border-bottom: 0;
-  border-right: 0;
-  border-left: 0;
+.Title {
+  font-size: 60px;
+  color: var(--text);
+  font-family: "Noto Serif Bengali";
+  font-weight: 700;
+  justify-self: center;
 }
+
 @media only screen and (max-width: 800px) {
   .Middle {
     grid-template-columns: 2% 96% 2%;
+  }
+  .Title {
+    font-size: 1.5rem;
   }
 }
